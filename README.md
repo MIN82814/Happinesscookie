@@ -1,44 +1,182 @@
-## **專題主題：**晴天餅乾· Happiness Cookie
+# 🌤️ 晴天餅乾 Happiness Cookie
 
-**晴天餅乾**
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![EJS](https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-> **專題成員**：
+> 晴天餅乾（Happiness Cookie）為甜點品牌形象網站切版練習專案。
+>
+> 以手工餅乾品牌為主題，規劃首頁、商品列表、商品詳細頁、購物車、結帳頁與會員中心等頁面。
+>
+> 專案採用 EJS 模板管理與 SCSS 架構化開發方式，透過團隊協作完成多頁面切版與 RWD 響應式設計練習。
+>
+> 本專案以前端介面開發為主，著重於版面規劃、元件拆分與跨裝置瀏覽體驗。
 
-[孟](https://www.notion.so/2286e9dba91380ed9ea0efaf9877c57b?pvs=21)
+---
 
-[YiHan](https://www.notion.so/YiHan-2286e9dba91380ae8a8adfb89ee6922e?pvs=21)
+## 📦 Demo
 
-[Sid](https://www.notion.so/Sid-2286e9dba913807b9a07ec6d54249b64?pvs=21)
+🔗 https://min82814.github.io/Happinesscookie/
 
-[Min](https://www.notion.so/Min-2296e9dba9138066b578dcad697876e4?pvs=21)
+---
 
-[Wayne](https://www.notion.so/Wayne-2296e9dba9138035b576e2c4bcf6a88d?pvs=21)
+## 📸 功能展示
 
-**主題理念**：
+### 首頁
 
-有時候，甜點不是為了慶祝
+![首頁](./docs/home.gif)
 
-而是為了撫慰日常裡的小小波動
+### 商品列表頁
 
-一走進店裡
+![商品列表](./docs/product-list.gif)
 
-是餅乾剛出爐的香氣，
+### 商品詳細頁
 
-是陽光灑在木櫃上的溫柔，
+![商品詳細頁](./docs/product-detail.gif)
 
-是我們親手為你準備的剛剛好的甜
+### 購物車頁面
 
-晴天餅乾 手工製作
+![購物車](./docs/cart.gif)
 
-只為了在平凡的每一天
+---
 
-成為你心裡那道小小的光
+## 👨‍💻 我的負責內容
 
-## spacing 2px to 200px
+### 商品詳細頁開發
 
-## 設計稿上的 fs-1 fs-2 fs-3
+- 商品詳細頁 UI 規劃與版面設計
+- 商品詳細頁 RWD 響應式切版
+- 商品圖片輪播功能製作
+- 側邊購物車（Offcanvas）互動設計
+- 加入購物車後側邊購物車展開效果整合
+- 協助整合商品顯示、數量調整與刪除等購物流程介面
 
-在開發時的命名
-fs-1 對應到 fs-16
-fs-2 對應到 fs-14
-fs-3 對應到 fs-12
+### 首頁共同開發
+
+- 首頁部分區塊切版
+- 響應式版面調整
+- SCSS 樣式維護與整合
+
+### 團隊協作
+
+- Git 版本控制
+- EJS 模板整合
+- 團隊協作開發流程
+
+---
+
+## 🌟 頁面規劃
+
+| 頁面       | 說明                       |
+| ---------- | -------------------------- |
+| 首頁       | 品牌形象與主打商品展示     |
+| 商品列表頁 | 商品瀏覽介面               |
+| 商品詳細頁 | 商品資訊展示與購買流程介面 |
+| 購物車頁   | 購物車版面展示             |
+| 結帳頁     | 訂購資訊填寫介面           |
+| 會員中心   | 個人資料與訂單資訊介面     |
+
+> 本專案以靜態前端切版練習為主，頁面功能以介面展示及互動效果呈現為主。
+
+---
+
+## 🔧 技術棧
+
+### 開發工具
+
+- Vite
+
+### 模板引擎
+
+- EJS
+
+### UI / 樣式
+
+- Bootstrap 5
+- SCSS (Sass)
+
+### 版本控制
+
+- Git
+- GitHub
+
+---
+
+## 🤝 團隊分工
+
+| 成員      | 負責內容                                                                                                    |
+| --------- | ----------------------------------------------------------------------------------------------------------- |
+| **孟**    | ✦會員中心頁面RWD切版<br>✦首頁共同開<br>✦footer發                                                            |
+| **YiHan** | ✦商品列表頁RWD切版<br>首頁共同開發<br>✦navbar                                                               |
+| **Wayne** | ✦購物車頁RWD切版<br>✦首頁共同開發<br>✦全域 SCSS 變數設定                                                    |
+| **Min**   | ✦商品詳細頁規劃設計及RWD切版<br>✦商品/顧客評價輪播製作<br>✦側邊購物車互動設計<br>✦首頁共同開發<br>✦共用元件 |
+
+---
+
+## 🖥️ 本地安裝與啟動
+
+### 環境需求
+
+- Node.js v18 以上
+
+### 安裝步驟
+
+```bash
+# Clone 專案
+git clone https://github.com/MIN82814/Happinesscookie.git
+
+# 進入專案資料夾
+cd Happinesscookie
+
+# 安裝套件
+npm install
+
+# 啟動開發環境
+npm run dev
+```
+
+---
+
+## 🗂️ 資料夾結構
+
+```text
+.
+├─ assets
+│  ├─ images
+│  └─ scss
+│     ├─ base
+│     ├─ components
+│     ├─ layout
+│     ├─ pages
+│     └─ utils
+│
+├─ layout
+│  ├─ header.ejs
+│  ├─ footer.ejs
+│  └─ header-variant.ejs
+│
+├─ pages
+│  ├─ index.html
+│  ├─ productlist.html
+│  ├─ product.html
+│  ├─ shopping-cart.html
+│  ├─ checkout.html
+│  └─ user.html
+│
+├─ public
+├─ package.json
+├─ vite.config.js
+└─ main.js
+```
+
+---
+
+## 🎯 專案學習重點
+
+- EJS 模板拆分與版型管理
+- SCSS 架構化開發
+- Bootstrap 元件應用
+- 響應式網頁設計（RWD）
+- 多頁面團隊協作開發
+- Git 版本控制流程
